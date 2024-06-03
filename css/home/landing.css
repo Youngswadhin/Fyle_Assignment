@@ -1,0 +1,75 @@
+:root{
+    --white-0: #FFFFFF;
+    --white-1: #FAFAFA;
+    --white-2: #F6F6F6;
+    --white-3: #F4F4F4;
+    --white-4: #B1B1B1;
+    --white-5: #808080;
+    --white-6: #757575;
+
+    --black: #000000;
+
+    --red-1: #672C2C1F;
+    --red-2: #FF3147;
+
+    --font-poppins: "Poppins", sans-serif;
+    --font-cormorant: "Poppins", sans-serif;
+    /* --font-cormorant: "Cormorant Upright", serif; */
+ }
+
+.landing{
+    width: clamp(100px,1000px,90vw);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.landing .content{
+    display: flex;
+    flex-direction: column;
+}
+.landing img{
+    width: clamp(150px,360px,70vw);
+}
+
+.landing .content .semiheading{
+    font-family: var(--font-cormorant);
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--red-2);
+    font-weight: 500;
+}
+.landing .content .heading-lg{
+    font-family: var(--font-cormorant);
+    font-size: 44px;
+    margin-bottom: 35px;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.landing .content .desc{
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    margin-bottom: 55px;
+    color: var(--black);
+    font-weight: 600;
+}
+.landing .content button{
+    font-family: var(--font-poppins);
+    font-size: 13px;
+    color: var(--white-0);
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    background: var(--red-2);
+    align-self: flex-start;
+    outline: none;
+    border: none;
+    transition: all .2s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.landing .content button:hover{
+    transform: translateX(10px);
+}

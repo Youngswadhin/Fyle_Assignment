@@ -1,0 +1,33 @@
+:root{
+    --white-0: #FFFFFF;
+    --white-1: #FAFAFA;
+    --white-2: #F6F6F6;
+    --white-3: #F4F4F4;
+    --white-4: #B1B1B1;
+    --white-5: #808080;
+    --white-6: #757575;
+
+    --black: #000000;
+
+    --red-1: #672C2C1F;
+    --red-2: #FF3147;
+
+    --font-poppins: "Poppins", sans-serif;
+    --font-cormorant: "Poppins", sans-serif;
+    /* --font-cormorant: "Cormorant Upright", serif; */
+ }
+
+ .clients{
+    width: full;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    padding-bottom: 70px;
+    background: var(--red-2);
+ }
+
+ .clients img{
+    width: 80%;
+ }
